@@ -84,5 +84,5 @@ Promise.all([sayOne, sayTwo, sayThree]).then((messages) => {
 
 // Returns first resolve message
 Promise.race([sayOne, sayTwo, sayThree]).then((messages) => {
-    console.log(messages);
+    console.log(message);
 })

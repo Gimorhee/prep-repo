@@ -1,4 +1,4 @@
-// Async programming improves application performanace and responsiveness.
+// Async programming improves application performance and responsiveness.
 
 const posts = [
     {title: 'Post One', body: 'Body One'},
@@ -18,7 +18,7 @@ function printPosts() {
 // printPosts();
 
 
-// addPost() takes 3 seconds to add new post into posts
+// addPost() takes 3 seconds to add new post into posts array
 function addPost(post) {
     setTimeout(() => {
         posts.push(post);
@@ -26,7 +26,7 @@ function addPost(post) {
 }
 // addPost(newPost);
 
-// Since it takes 3s to add post into posts, newPost will never be printed,
+// Since it takes 3s to add post into posts array, newPost will never be printed,
 // To make above functions async we could approach with 3 different ways
 
 
